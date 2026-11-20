@@ -28,7 +28,7 @@ class Voiture{
         }
 
         static int getNombreObjets(){
-
+            
         }
 };
 
@@ -52,6 +52,9 @@ class VoitureDeSport : public Voiture {
 
         }
         static int getNombreObjetsSport(){
-
+            return 
         }
 };
+
+int Voiture::nombreObjets = 0;
+int VoitureDeSport::nombreObjetsSport = 0;
